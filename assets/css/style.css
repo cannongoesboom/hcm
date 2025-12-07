@@ -1,1 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;400&family=Oswald:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.page-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  color: #0c5cab;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.phone {
+  font-size: 1.2em;
+  font-family: 'Oswald', sans-serif;
+  background-color: #0c5cab;
+  color: #fff;
+  padding: 10px;
+}
+
+.phone a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+.user-cannot-see {
+    display:none
+}
+
+#refi_form {
+  background-color: #f0f0f0;
+  margin: 25px auto;
+  width: 100%;
+  min-width: 300px;
+  padding: 50px 50px 0 50px;
+  box-shadow: 2px 2px 10px #0c5cab;
+}
+
+.panel {
+  border: 0px;
+}
+
+.panel-body {
+  background-color: #f0f0f0;
+  border-radius: 0px;
+  width: 100%;
+}
+
+#first {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.form-group label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.form-control {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+table {
+  width: 100%;
+}
+
+.box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.active_tab1 {
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+}
+
+.inactive_tab1 {
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: not-allowed;
+}
+*/ .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crm {
+  background-color: #2873bd;
+  padding: 20px 20px;
+  color: #f5f5f5;
+}
+
+td {
+  width: 45%;
+  padding: 2% 10px;
+  color: #333;
+}
+
+.left {
+  align-items: flex-start;
+  padding-bottom: 0px;
+}
+
+.right {
+  align-items: flex-end;
+  padding-bottom: 0px;
+}
+
+.panel-default button {
+  background-color: #0c5cab;
+  color: #fff;
+  border-radius: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+}
+
+.panel-default button:hover {
+  background-color: #2873bd;
+}
+
+.has-error {
+  border-color: #cc0000;
+  background-color: #bb7970;
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+  #refi_form {
+    padding: 5px;
+  }
+}
+@media (min-width: 401px) and (max-width: 450px) {
+  #refi_form {
+    padding: 5px;
+  }
+}
+@media (min-width: 451px) and (max-width: 500px) {
+  #refi_form {
+    padding: 5px;
+  }
+}
+@media (min-width: 501px) and (max-width: 550px) {
+  #refi_form {
+    padding: 5px;
+  }
+}
+@media (min-width: 750px) and (max-width: 775px) {
+  .phone a {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 776px) and (max-width: 800px) {
+  .phone a {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 801px) and (max-width: 850px) {
+  .phone a {
+    margin-left: 80px;
+  }
+}
+@media (min-width: 851px) and (max-width: 900px) {
+  .phone a {
+    margin-left: 100px;
+  }
+}
+@media (min-width: 901px) and (max-width: 950px) {
+  .phone a {
+    margin-left: 120px;
+  }
+}
+@media (min-width: 951px) and (max-width: 1000px) {
+  .phone a {
+    margin-left: 140px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1050px) {
+  .phone a {
+    margin-left: 160px;
+  }
+}
+@media (min-width: 1051px) and (max-width: 1100px) {
+  .phone a {
+    margin-left: 180px;
+  }
+}
+@media (min-width: 1101px) and (max-width: 1150px) {
+  .phone a {
+    margin-left: 200px;
+  }
+}
+@media (min-width: 1151px) and (max-width: 1200px) {
+  .phone a {
+    margin-left: 220px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1250px) {
+  .phone a {
+    margin-left: 240px;
+  }
+}
+
 
